@@ -21,7 +21,7 @@ function maze ($n) {
 			} elseif ($i == 15 && $j == 14) {
 				echo " ";
 			} elseif ($i%2 === 0 && $j != 1 && $j != 15) {
-				echo "<span style='color:white;'>@</span>";
+				echo "<span style='visibility:hidden;'>@</span>";
 			} else {
 				echo "@";
 			}
